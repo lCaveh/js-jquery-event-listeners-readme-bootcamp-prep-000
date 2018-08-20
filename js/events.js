@@ -29,5 +29,5 @@ function submitIt() {
 $(document).ready(function(){
 
 
-
+submitIt();
 });
