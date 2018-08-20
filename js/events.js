@@ -19,12 +19,10 @@ function pressIt() {
     }
   });
 }
-function pressIt() {
-  $('input').on('keydown',
+function submitIt() {
+  $('input').on('submit',
   function(key){
-    if (key.which == 71) {
     alert("G key was pressed down!");
-    }
   });
 }
 
